@@ -1,24 +1,17 @@
 {
   "name": "e-carros-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "e-carros api",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrdouglasmorais/e-carros-api.git"
-  },
-  "keywords": [],
+  "keywords": [
+    "e-carros, api"
+  ],
   "author": "Douglas Morais",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrdouglasmorais/e-carros-api/issues"
-  },
-  "homepage": "https://github.com/mrdouglasmorais/e-carros-api#readme",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.16.2"
   }
 }
