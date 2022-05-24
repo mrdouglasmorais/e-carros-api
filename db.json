@@ -1,11 +1,11 @@
 {
   "brands": [
-      { "id": "Ford", "logo": "" },
-      { "id": "Honda", "logo": "" },
-      { "id": "Fiat", "logo": "" },
-      { "id": "Nissan", "logo": "" },
-      { "id": "Volkswagen", "logo": "" },
-      { "id": "Tesla", "logo": "" }
+      { "id": 0, "logo": "", "name": "Ford" },
+      { "id": 1, "logo": "", "name": "Honda" },
+      { "id": 2, "logo": "", "name": "Fiat" },
+      { "id": 3, "logo": "", "name": "Nissan" },
+      { "id": 4, "logo": "", "name": "Volkswagen" },
+      { "id": 5, "logo": "", "name": "Tesla" }
   ],
   "parameters": [
       { "id": 1, "title": "Teto solar" },
