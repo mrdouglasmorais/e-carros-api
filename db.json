@@ -1,9 +1,9 @@
 {
   "brands": [
-      { "id": 0, "logo": "", "name": "Ford" },
-      { "id": 1, "logo": "", "name": "Honda" },
-      { "id": 2, "logo": "", "name": "Fiat" },
-      { "id": 3, "logo": "", "name": "Nissan" },
+      { "id": 0, "logo": "https://marcas-logos.net/wp-content/uploads/2020/03/Ford-Logo.jpg", "name": "Ford" },
+      { "id": 1, "logo": "https://logosmarcas.net/wp-content/uploads/2021/04/Honda-Logo.png", "name": "Honda" },
+      { "id": 2, "logo": "https://logospng.org/wp-content/uploads/fiat.png", "name": "Fiat" },
+      { "id": 3, "logo": "https://img2.gratispng.com/20181207/kgr/kisspng-nissan-tsuru-logo-car-brand-5c0b1910a35f27.8891950915442311846692.jpg", "name": "Nissan" },
       { "id": 4, "logo": "", "name": "Volkswagen" },
       { "id": 5, "logo": "", "name": "Tesla" },
       { "id": 6, "logo": "", "name": "Land Rover" },
@@ -27,6 +27,7 @@
       "model": "Fiat Uno",
       "version": "Vivace",
       "brand": 2,
+      "price": "41.999",
       "year": 2020,
       "description": "Fiat uno...",
       "mileage": "até 10.000 km",
@@ -38,6 +39,25 @@
         "Air Bag"
       ],
       "fuel": ["Alcool", "Gasolina", "Flex"]
+    },
+    {
+      "id": 1,
+      "model": "Honda Civic",
+      "version": "EXL",
+      "brand": 1,
+      "year": 2022,
+      "price": "137.600",
+      "description": "Fiat uno...",
+      "mileage": "0 km",
+      "cartype": "Coupe",
+      "photos": ["https://quatrorodas.abril.com.br/wp-content/uploads/2022/04/honda-civic-seda-e1650568274124.jpg"],
+      "additional": [ 
+        "Automático", 
+        "Freio ABS", 
+        "Air Bag",
+        "Kit Multimídia"
+      ],
+      "fuel": ["Flex", "Híbrido"]
     }
   ]
 }
