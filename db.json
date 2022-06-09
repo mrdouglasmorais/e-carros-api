@@ -1,14 +1,14 @@
 {
   "brands": [
-      { "id": 0, "logo": "https://marcas-logos.net/wp-content/uploads/2020/03/Ford-Logo.jpg", "name": "Ford" },
-      { "id": 1, "logo": "https://logosmarcas.net/wp-content/uploads/2021/04/Honda-Logo.png", "name": "Honda" },
-      { "id": 2, "logo": "https://logospng.org/wp-content/uploads/fiat.png", "name": "Fiat" },
-      { "id": 3, "logo": "https://img2.gratispng.com/20181207/kgr/kisspng-nissan-tsuru-logo-car-brand-5c0b1910a35f27.8891950915442311846692.jpg", "name": "Nissan" },
-      { "id": 4, "logo": "", "name": "Volkswagen" },
-      { "id": 5, "logo": "", "name": "Tesla" },
-      { "id": 6, "logo": "", "name": "Land Rover" },
-      { "id": 7, "logo": "", "name": "Jaguar" },
-      { "id": 8, "logo": "", "name": "Audi" }
+      { "id": 0, "logo": "https://www.imagemhost.com.br/images/2022/06/09/renault.png", "name": "Renault" },
+      { "id": 1, "logo": "https://www.imagemhost.com.br/images/2022/06/09/honda.png", "name": "Honda" },
+      { "id": 2, "logo": "https://www.imagemhost.com.br/images/2022/06/09/infiniti.png", "name": "Infiniti" },
+      { "id": 3, "logo": "https://www.imagemhost.com.br/images/2022/06/09/mercadez-benz.png", "name": "Mercedez Benz" },
+      { "id": 4, "logo": "https://www.imagemhost.com.br/images/2022/06/09/lexus.png", "name": "Lexus" },
+      { "id": 5, "logo": "https://www.imagemhost.com.br/images/2022/06/09/mitsubishi.png", "name": "Mitsubishi" },
+      { "id": 6, "logo": "https://www.imagemhost.com.br/images/2022/06/09/mazda.png", "name": "Mazda" },
+      { "id": 7, "logo": "https://www.imagemhost.com.br/images/2022/06/09/hyundai.png", "name": "Hyundai" },
+      { "id": 8, "logo": "https://www.imagemhost.com.br/images/2022/06/09/audi.png", "name": "Audi" }
   ],
   "colors": [
     "Branco", "Preto", "Prata", "Vermelho", "Vinho", "Chumbo"
