@@ -5,19 +5,22 @@
       { "id": 2, "logo": "", "name": "Fiat" },
       { "id": 3, "logo": "", "name": "Nissan" },
       { "id": 4, "logo": "", "name": "Volkswagen" },
-      { "id": 5, "logo": "", "name": "Tesla" }
+      { "id": 5, "logo": "", "name": "Tesla" },
+      { "id": 6, "logo": "", "name": "Land Rover" },
+      { "id": 7, "logo": "", "name": "Jaguar" },
+      { "id": 8, "logo": "", "name": "Audi" }
   ],
-  "parameters": [
-      { "id": 1, "title": "Teto solar" },
-      { "id": 2, "title": "Transmissão manual" },
-      { "id": 3, "title": "Transmissão automática" },
-      { "id": 4, "title": "Freio ABS" },
-      { "id": 5, "title": "Air Bag" },
-      { "id": 6, "title": "Gasolina" },
-      { "id": 7, "title": "Alcool" },
-      { "id": 8, "title": "Flex" },
-      { "id": 9, "title": "Elétrico" }
+  "colors": [
+    "Branco", "Preto", "Prata", "Vermelho", "Vinho", "Chumbo"
   ],
+  "fuel": [
+    "Gasolina", "Alcool", "Diesel", "Flex", "GNV", "Elétrico", "Híbrido"
+  ],
+  "mileage": ["0km", "até 10.000 km", "até 20.000 km", "até 30.000 km", "acima 40.000 km" ],
+  "condition": ["Novo", "Usado"],
+  "cartype": ["SUV", "Utilitário", "Van", "Pickup", "Sedan", "Hatback", "Coupe"],
+  "transmission": ["Manual", "Semi-automático", "Automático"],
+  "additional": ["Teto solar", "Freio ABS", "Air Bags", "Kit Multimídia", "Ar Condicionado", "Banco de couro", "Rodas em liga leve"],
   "adverts": [
     {
       "id": 0,
@@ -26,15 +29,15 @@
       "brand": 2,
       "year": 2020,
       "description": "Fiat uno...",
+      "mileage": "até 10.000 km",
+      "cartype": "Hatback",
       "photos": ["https://images.noticiasautomotivas.com.br/img/f/fiat-uno-vivace-1-9.jpeg"],
-      "items": [ 
+      "additional": [ 
         "Transmissão manual", 
         "Freio ABS", 
-        "Air Bag",
-        "Gasolina",
-        "Alcool",
-        "Flex"
-      ]
+        "Air Bag"
+      ],
+      "fuel": ["Alcool", "Gasolina", "Flex"]
     }
   ]
 }
