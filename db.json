@@ -1,65 +1,278 @@
 {
   "brands": [
-      { "id": 0, "logo": "https://www.imagemhost.com.br/images/2022/06/09/renault.png", "name": "Renault" },
-      { "id": 1, "logo": "https://www.imagemhost.com.br/images/2022/06/09/honda.png", "name": "Honda" },
-      { "id": 2, "logo": "https://www.imagemhost.com.br/images/2022/06/09/infiniti.png", "name": "Infiniti" },
-      { "id": 3, "logo": "https://www.imagemhost.com.br/images/2022/06/09/mercedes-benz.png", "name": "Mercedez Benz" },
-      { "id": 4, "logo": "https://www.imagemhost.com.br/images/2022/06/09/lexus.png", "name": "Lexus" },
-      { "id": 5, "logo": "https://www.imagemhost.com.br/images/2022/06/09/mitsubishi.png", "name": "Mitsubishi" },
-      { "id": 6, "logo": "https://www.imagemhost.com.br/images/2022/06/09/mazda.png", "name": "Mazda" },
-      { "id": 7, "logo": "https://www.imagemhost.com.br/images/2022/06/09/hyundai.png", "name": "Hyundai" },
-      { "id": 8, "logo": "https://www.imagemhost.com.br/images/2022/06/09/audi.png", "name": "Audi" }
+      { 
+        "id": 0, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/renault.png", 
+        "name": "Renault" 
+      },
+      { 
+        "id": 1, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/honda.png", 
+        "name": "Honda" 
+      },
+      { 
+        "id": 2, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/infiniti.png", 
+        "name": "Infiniti" 
+      },
+      { 
+        "id": 3, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/mercedes-benz.png", 
+        "name": "Mercedez Benz" 
+      },
+      { 
+        "id": 4, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/lexus.png", 
+        "name": "Lexus" 
+      },
+      { 
+        "id": 5, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/mitsubishi.png", 
+        "name": "Mitsubishi" 
+      },
+      { 
+        "id": 6, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/mazda.png", 
+        "name": "Mazda" 
+      },
+      { 
+        "id": 7, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/hyundai.png", 
+        "name": "Hyundai" 
+      },
+      { 
+        "id": 8, 
+        "logo": "https://www.imagemhost.com.br/images/2022/06/09/audi.png", 
+        "name": "Audi" 
+      }
+  ],
+  "condition": [
+    {
+      "id": 0,
+      "label": "Novo"
+    },
+    {
+      "id": 1,
+      "label": "Usado"
+    }
   ],
   "colors": [
-    "Branco", "Preto", "Prata", "Vermelho", "Vinho", "Chumbo"
+    {
+      "id": 0,
+      "value": "Branco"
+    },
+    {
+      "id": 1,
+      "value": "Preto"
+    },
+    {
+      "id": 2,
+      "value": "Prata"
+    },
+    {
+      "id": 3,
+      "value": "Vermelho"
+    },
+    {
+      "id": 4,
+      "value": "Vinho"
+    },
+    {
+      "id": 5,
+      "value": "Chumbo"
+    }
   ],
   "fuel": [
-    "Gasolina", "Alcool", "Diesel", "Flex", "GNV", "Elétrico", "Híbrido"
+    {
+      "id": 0,
+      "label": "Gasolina"
+    },
+    {
+      "id": 1,
+      "label": "Alcool"
+    },
+    {
+      "id": 3,
+      "label": "Diesel" 
+    },
+    {
+      "id": 4,
+      "label": "Flex"
+    },
+    {
+      "id": 5,
+      "label": "GNV"
+    },
+    {
+      "id": 6,
+      "label": "Elétrico"
+    },
+    {
+      "id": 7,
+      "label": "Híbrido"
+    }
   ],
-  "mileage": ["0km", "até 10.000 km", "até 20.000 km", "até 30.000 km", "acima 40.000 km" ],
-  "condition": ["Novo", "Usado"],
-  "cartype": ["SUV", "Utilitário", "Van", "Pickup", "Sedan", "Hatback", "Coupe"],
-  "transmission": ["Manual", "Semi-automático", "Automático"],
-  "additional": ["Teto solar", "Freio ABS", "Air Bags", "Kit Multimídia", "Ar Condicionado", "Banco de couro", "Rodas em liga leve"],
+  "mileage": [
+    {
+      "id": 0,
+      "value": "0km"
+    },
+    {
+      "id": 1,
+      "value": "até 10.000 km"
+    },
+    {
+      "id": 2,
+      "value": "até 20.000 km"
+    },
+    {
+      "id": 3,
+      "value": "até 30.000 km"
+    },
+    {
+      "id": 4,
+      "value": "acima 40.000 km"
+    }
+  ],
+  "cartype": [ 
+    {
+      "id": 0,
+      "value": "SUV"
+    },
+    {
+      "id": 1,
+      "value": "Utilitário"
+    },
+    {
+      "id": 2,
+      "value": "Van"
+    },
+    {
+      "id": 3,
+      "value": "Pickup"
+    },
+    {
+      "id": 4,
+      "value": "Sedan"
+    },
+    {
+      "id": 5,
+      "value": "Hatback"
+    },
+    {
+      "id": 6,
+      "value": "Coupe"
+    }
+  ],
+  "transmission": [
+    {
+      "id": 0, 
+      "value": "Manual"
+    },
+    {
+      "id": 1,
+      "value": "Semi-automático"
+    },
+    {
+      "id": 2,
+      "value": "Automático"
+    }
+  ],
+  "additional": [
+    {
+      "id": 0,
+      "value": "Teto solar"
+    },
+    {
+      "id": 1,
+      "value": "Freio ABS"
+    },
+    {
+      "id": 2,
+      "value": "Air Bags"
+    },
+    {
+      "id": 3,
+      "value": "Kit Multimídia"
+    },
+    {
+      "id": 4,
+      "value": "Ar Condicionado"
+    },
+    {
+      "id": 5,
+      "value": "Banco de couro"
+    },
+    {
+      "id": 5,
+      "value": "Rodas em liga leve"
+    }
+  ],
+  "locale": [
+    {
+      "id": 0,
+      "name": "São Paulo"
+    },
+    {
+      "id": 1,
+      "name": "Rio de Janeiro"
+    },
+    {
+      "id": 2,
+      "name": "Minas Gerais"
+    },
+    {
+      "id": 3,
+      "name": "Rio Grande do Sul"
+    }
+  ],
   "adverts": [
     {
       "id": 0,
       "model": "Fiat Uno",
       "version": "Vivace",
       "brand": 2,
-      "price": "41.999",
+      "condition": 1,
+      "location": 0,
+      "price": 41.999,
       "year": 2020,
       "description": "Fiat uno...",
       "mileage": "até 10.000 km",
       "cartype": "Hatback",
       "color": "Branco",
-      "photos": ["https://images.noticiasautomotivas.com.br/img/f/fiat-uno-vivace-1-9.jpeg"],
+      "photos": [
+        "https://images.noticiasautomotivas.com.br/img/f/fiat-uno-vivace-1-9.jpeg"
+      ],
       "additional": [ 
         "Transmissão manual", 
         "Freio ABS", 
         "Air Bag"
       ],
-      "fuel": ["Alcool", "Gasolina", "Flex"]
+      "fuel": [0, 1, 4]
     },
     {
       "id": 1,
       "model": "Honda Civic",
       "version": "EXL",
+      "condition": 1,
+      "location": 0,
       "brand": 1,
       "year": 2022,
-      "price": "137.600",
-      "description": "Fiat uno...",
+      "price": 137.608,
+      "description": "Honda Civic",
       "mileage": "0 km",
       "cartype": "Coupe",
       "color": "Preto",
-      "photos": ["https://quatrorodas.abril.com.br/wp-content/uploads/2022/04/honda-civic-seda-e1650568274124.jpg"],
+      "photos": [
+        "https://quatrorodas.abril.com.br/wp-content/uploads/2022/04/honda-civic-seda-e1650568274124.jpg"
+      ],
       "additional": [ 
         "Automático", 
         "Freio ABS", 
         "Air Bag",
         "Kit Multimídia"
       ],
-      "fuel": ["Flex", "Híbrido"]
+      "fuel": [0, 1, 4, 6, 7]
     }
   ]
 }
