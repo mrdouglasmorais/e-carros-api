@@ -211,19 +211,19 @@
   "locale": [
     {
       "id": 0,
-      "name": "São Paulo"
+      "value": "São Paulo"
     },
     {
       "id": 1,
-      "name": "Rio de Janeiro"
+      "value": "Rio de Janeiro"
     },
     {
       "id": 2,
-      "name": "Minas Gerais"
+      "value": "Minas Gerais"
     },
     {
       "id": 3,
-      "name": "Rio Grande do Sul"
+      "value": "Rio Grande do Sul"
     }
   ],
   "card_models": [],
@@ -245,7 +245,7 @@
         "https://images.noticiasautomotivas.com.br/img/f/fiat-uno-vivace-1-9.jpeg"
       ],
       "additional": [ 
-        "Transmissão manual", 
+        "Manual", 
         "Freio ABS", 
         "Air Bag"
       ],
