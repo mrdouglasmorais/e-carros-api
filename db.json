@@ -228,54 +228,792 @@
   ],
   "card_models": [],
   "adverts": [
-    {
-      "id": 0,
-      "model": "Fiat Uno",
-      "version": "Vivace",
-      "brand": 2,
-      "condition": 1,
-      "certifield": false,
-      "location": 0,
-      "price": 41.999,
-      "year": 2020,
-      "description": "Fiat uno...",
-      "mileage": "até 10.000 km",
-      "cartype": "Hatback",
-      "color": "Branco",
-      "photos": [
-        "https://images.noticiasautomotivas.com.br/img/f/fiat-uno-vivace-1-9.jpeg"
-      ],
-      "additional": [ 
-        "Manual", 
-        "Freio ABS", 
-        "Air Bag"
-      ],
-      "fuel": [0, 1, 4]
-    },
-    {
-      "id": 1,
-      "model": "Honda Civic",
-      "version": "EXL",
-      "condition": 1,
-      "certifield": true,
-      "location": 0,
-      "brand": 1,
-      "year": 2022,
-      "price": 137.608,
-      "description": "Honda Civic",
-      "mileage": "0 km",
-      "cartype": "Coupe",
-      "color": "Preto",
-      "photos": [
-        "https://quatrorodas.abril.com.br/wp-content/uploads/2022/04/honda-civic-seda-e1650568274124.jpg"
-      ],
-      "additional": [ 
-        "Automático", 
-        "Freio ABS", 
-        "Air Bag",
-        "Kit Multimídia"
-      ],
-      "fuel": [0, 1, 4, 6, 7]
-    }
-  ]
+		{
+			"id": 1,
+			"model": "Honda Civic",
+			"version": "EXL",
+			"certifield": true,
+			"price": 165.88,
+			"year": 2022,
+			"kilometers": "20k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Honda com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T13:12:54.692Z",
+			"updatedAt": "2022-07-05T13:12:54.692Z",
+			"condition": {
+				"id": 1,
+				"value": "Novo"
+			},
+			"brand": null,
+			"location": {
+				"id": 1,
+				"value": "São Paulo"
+			},
+			"mileage": {
+				"id": 1,
+				"value": "0 km"
+			},
+			"cartype": {
+				"id": 1,
+				"value": "SUV"
+			},
+			"color": {
+				"id": 1,
+				"value": "Branco"
+			},
+			"fuel": {
+				"id": 1,
+				"value": "Gasolina"
+			},
+			"photos": {
+				"id": 1,
+				"value": "https://quatrorodas.abril.com.br/wp-content/uploads/2022/04/honda-civic-seda-e1650568274124.jpg"
+			},
+			"additional": {
+				"value": "Teto solar"
+			}
+		},
+		{
+			"id": 2,
+			"model": "Honda FIT",
+			"version": "XL",
+			"certifield": false,
+			"price": 95.87,
+			"year": 2019,
+			"kilometers": "50k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Honda com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T13:30:17.016Z",
+			"updatedAt": "2022-07-05T13:30:17.016Z",
+			"condition": {
+				"id": 2,
+				"value": "Usado"
+			},
+			"brand": null,
+			"location": {
+				"id": 2,
+				"value": "Rio de Janeiro"
+			},
+			"mileage": {
+				"id": 2,
+				"value": "até 10.000 km"
+			},
+			"cartype": {
+				"id": 2,
+				"value": "Utilitário"
+			},
+			"color": {
+				"id": 2,
+				"value": "Preto"
+			},
+			"fuel": {
+				"id": 2,
+				"value": "Alcool"
+			},
+			"photos": {
+				"id": 2,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220622/honda-hrv-1.8-16v-flex-exl-4p-automatico-wmimagem18023988667.jpg"
+			},
+			"additional": {
+				"value": "Freio ABS"
+			}
+		},
+		{
+			"id": 3,
+			"model": "Honda HR-V",
+			"version": "EXL",
+			"certifield": true,
+			"price": 104.5,
+			"year": 2018,
+			"kilometers": "100k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Honda com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T13:31:42.395Z",
+			"updatedAt": "2022-07-05T13:31:42.395Z",
+			"condition": null,
+			"brand": null,
+			"location": {
+				"id": 3,
+				"value": "Minas Gerais"
+			},
+			"mileage": {
+				"id": 3,
+				"value": "até 20.000 km"
+			},
+			"cartype": {
+				"id": 3,
+				"value": "Van"
+			},
+			"color": {
+				"id": 3,
+				"value": "Prata"
+			},
+			"fuel": {
+				"id": 3,
+				"value": "Diesel"
+			},
+			"photos": {
+				"id": 3,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220607/honda-fit-1.5-exl-16v-flex-4p-automatico-wmimagem10332201529.jpg"
+			},
+			"additional": {
+				"value": "Air Bags"
+			}
+		},
+		{
+			"id": 4,
+			"model": "RENAULT CAPTUR",
+			"version": "HI-FLEX INTENSE ",
+			"certifield": false,
+			"price": 81.5,
+			"year": 2020,
+			"kilometers": "40k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T13:48:27.386Z",
+			"updatedAt": "2022-07-05T13:48:27.386Z",
+			"condition": null,
+			"brand": null,
+			"location": {
+				"id": 4,
+				"value": "Rio Grande do Sul"
+			},
+			"mileage": {
+				"id": 4,
+				"value": "até 30.000 km"
+			},
+			"cartype": {
+				"id": 4,
+				"value": "Pickup"
+			},
+			"color": {
+				"id": 4,
+				"value": "Vermelho"
+			},
+			"fuel": {
+				"id": 4,
+				"value": "Flex"
+			},
+			"photos": {
+				"id": 4,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220622/renault-captur-2.0-16v-hiflex-intense-automatico-wmimagem13014228828.jpg"
+			},
+			"additional": {
+				"value": "Kit Multimídia"
+			}
+		},
+		{
+			"id": 5,
+			"model": "RENAULT DUSTER",
+			"version": "SCE FLEX ICONIC X-TRONIC",
+			"certifield": true,
+			"price": 100.5,
+			"year": 2021,
+			"kilometers": "35k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T13:51:52.160Z",
+			"updatedAt": "2022-07-05T13:51:52.160Z",
+			"condition": null,
+			"brand": {
+				"id": 5,
+				"value": "Renault",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/renault.png"
+			},
+			"location": {
+				"id": 5,
+				"value": "Ceará"
+			},
+			"mileage": {
+				"id": 5,
+				"value": "até 40.000 km"
+			},
+			"cartype": {
+				"id": 5,
+				"value": "Sedan"
+			},
+			"color": {
+				"id": 5,
+				"value": "Vinho"
+			},
+			"fuel": {
+				"id": 5,
+				"value": "GNV"
+			},
+			"photos": {
+				"id": 5,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220623/renault-duster-1.6-16v-sce-flex-iconic-xtronic-wmimagem18013577432.jpg"
+			},
+			"additional": {
+				"value": "Ar Condicionado"
+			}
+		},
+		{
+			"id": 6,
+			"model": "RENAULT LOGAN",
+			"version": "SCE FLEX ZEN",
+			"certifield": true,
+			"price": 54.5,
+			"year": 2021,
+			"kilometers": "35k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T13:54:54.753Z",
+			"updatedAt": "2022-07-05T13:54:54.753Z",
+			"condition": null,
+			"brand": {
+				"id": 6,
+				"value": "Honda",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/honda.png"
+			},
+			"location": {
+				"id": 6,
+				"value": "Bahia"
+			},
+			"mileage": null,
+			"cartype": {
+				"id": 6,
+				"value": "Hatback"
+			},
+			"color": {
+				"id": 6,
+				"value": "Chumbo"
+			},
+			"fuel": {
+				"id": 6,
+				"value": "Elétrico"
+			},
+			"photos": {
+				"id": 6,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/renault-logan-1.0-12v-sce-flex-zen-manual-wmimagem13050803677.jpg"
+			},
+			"additional": {
+				"value": "Banco de couro"
+			}
+		},
+		{
+			"id": 7,
+			"model": "RENAULT KWID",
+			"version": "SCE FLEX ZEN",
+			"certifield": true,
+			"price": 53.5,
+			"year": 2021,
+			"kilometers": "11k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:01:22.124Z",
+			"updatedAt": "2022-07-05T14:01:22.124Z",
+			"condition": null,
+			"brand": {
+				"id": 7,
+				"value": "Infiniti",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/infiniti.png"
+			},
+			"location": {
+				"id": 7,
+				"value": "Bahia"
+			},
+			"mileage": null,
+			"cartype": {
+				"id": 7,
+				"value": "Coupe"
+			},
+			"color": {
+				"id": 7,
+				"value": "Amarelo"
+			},
+			"fuel": {
+				"id": 7,
+				"value": "Híbrido"
+			},
+			"photos": {
+				"id": 7,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220602/renault-kwid-1.0-12v-sce-flex-zen-manual-wmimagem14010638758.jpg"
+			},
+			"additional": {
+				"value": "Rodas em liga leve"
+			}
+		},
+		{
+			"id": 8,
+			"model": "INFINITI FX35",
+			"version": "RWD",
+			"certifield": true,
+			"price": 132.5,
+			"year": 2022,
+			"kilometers": "0k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:11:26.579Z",
+			"updatedAt": "2022-07-05T14:11:26.579Z",
+			"condition": null,
+			"brand": {
+				"id": 8,
+				"value": "Mercedes Benz",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/mercedes-benz.png"
+			},
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": {
+				"id": 8,
+				"value": "Azul Metálico"
+			},
+			"fuel": null,
+			"photos": {
+				"id": 8,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202205/20220525/infiniti-fx35-3.5-rwd-v6-24v-gasolina-4p-automatico-wmimagem15511928967.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 9,
+			"model": "INFINITI FX50",
+			"version": "AWD V8",
+			"certifield": true,
+			"price": 134.5,
+			"year": 2022,
+			"kilometers": "52k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:22:19.115Z",
+			"updatedAt": "2022-07-05T14:22:19.115Z",
+			"condition": null,
+			"brand": {
+				"id": 9,
+				"value": "Lexus",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/lexus.png"
+			},
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": {
+				"id": 9,
+				"value": "Azul Metálico"
+			},
+			"fuel": null,
+			"photos": {
+				"id": 9,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220620/infiniti-g37-3.7-cabrio-v6-24v-gasolina-2p-automatico-wmimagem16400862331.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 10,
+			"model": "INFINITI G37",
+			"version": "CABRIO V6 24V",
+			"certifield": true,
+			"price": 270.5,
+			"year": 2022,
+			"kilometers": "43k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:22:56.892Z",
+			"updatedAt": "2022-07-05T14:22:56.892Z",
+			"condition": null,
+			"brand": {
+				"id": 10,
+				"value": "Mitsubishi",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/mitsubishi.png"
+			},
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 10,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2021/202109/20210927/infiniti-fx50-5.0-s-awd-v8-32v-gasolina-4p-automatico-wmimagem08533643441.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 11,
+			"model": "MERCEDES-BENZ GLC 250",
+			"version": "CGI",
+			"certifield": true,
+			"price": 359.5,
+			"year": 2018,
+			"kilometers": "50k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:27:21.631Z",
+			"updatedAt": "2022-07-05T14:27:21.631Z",
+			"condition": null,
+			"brand": {
+				"id": 11,
+				"value": "Mazda",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/mazda.png"
+			},
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 11,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202207/20220701/mercedesbenz-glc-250-2.0-cgi-gasolina-coupe-4matic-9gtronic-wmimagem12580370063.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 12,
+			"model": "MERCEDES-BENZ C 200",
+			"version": "EQ BOOST HÍBRIDO",
+			"certifield": false,
+			"price": 372.5,
+			"year": 2018,
+			"kilometers": "3k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:28:13.374Z",
+			"updatedAt": "2022-07-05T14:28:13.374Z",
+			"condition": null,
+			"brand": {
+				"id": 12,
+				"value": "Hyundai",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/hyundai.png"
+			},
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 12,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220623/mercedesbenz-c-200-1.5-eq-boost-hibrido-amg-line-9gtronic-wmimagem13085521425.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 13,
+			"model": "MERCEDES-BENZ GLA 200",
+			"version": "CGI FLEX",
+			"certifield": true,
+			"price": 145.5,
+			"year": 2018,
+			"kilometers": "61k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:30:04.546Z",
+			"updatedAt": "2022-07-05T14:30:04.546Z",
+			"condition": null,
+			"brand": {
+				"id": 13,
+				"value": "Audi",
+				"logo": "https://www.imagemhost.com.br/images/2022/06/09/audi.png"
+			},
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 13,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220609/mercedesbenz-gla-200-1.6-cgi-flex-style-7gdct-wmimagem16131459014.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 14,
+			"model": "MERCEDES-BENZ ML 350",
+			"version": "BLUETEC SPORT V6",
+			"certifield": true,
+			"price": 192.5,
+			"year": 2013,
+			"kilometers": "116k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:30:54.931Z",
+			"updatedAt": "2022-07-05T14:30:54.931Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 14,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220610/mercedesbenz-ml-350-3.0-bluetec-sport-v6-diesel-4p-automatico-wmimagem10140709324.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 15,
+			"model": "MERCEDES-BENZ S 63 AMG",
+			"version": "4.0 V8 TURBO GASOLINA L 4MATIC SPEEDSHIFT",
+			"certifield": true,
+			"price": 1380,
+			"year": 2013,
+			"kilometers": "20k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:32:35.989Z",
+			"updatedAt": "2022-07-05T14:32:35.989Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 15,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202205/20220516/mercedesbenz-s-63-amg-4.0-v8-turbo-gasolina-l-4matic-speedshift-wmimagem17204457418.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 16,
+			"model": "AUDI A3",
+			"version": "TFSI SPORTBACK",
+			"certifield": true,
+			"price": 122.9,
+			"year": 2018,
+			"kilometers": "30k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:41:02.198Z",
+			"updatedAt": "2022-07-05T14:41:02.198Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 16,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202205/20220516/mercedesbenz-s-63-amg-4.0-v8-turbo-gasolina-l-4matic-speedshift-wmimagem17204457418.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 17,
+			"model": "AUDI A3",
+			"version": "TFSI GASOLINA",
+			"certifield": true,
+			"price": 215.9,
+			"year": 2020,
+			"kilometers": "16k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:42:45.714Z",
+			"updatedAt": "2022-07-05T14:42:45.714Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 17,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/audi-a3-1.4-tfsi-sportback-ambiente-16v-gasolina-4p-stronic-wmimagem14231956232.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 18,
+			"model": "AUDI Q3",
+			"version": "TFSI FLEX PRESTIGE",
+			"certifield": false,
+			"price": 153.9,
+			"year": 2020,
+			"kilometers": "30k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:43:19.091Z",
+			"updatedAt": "2022-07-05T14:43:19.091Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 18,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/audi-a3-2.0-tfsi-gasolina-sedan-performance-black-stronic-wmimagem11185618419.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 19,
+			"model": "AUDI A3",
+			"version": "TFSI SEDAN AMBITION 16V",
+			"certifield": true,
+			"price": 115.9,
+			"year": 2020,
+			"kilometers": "78k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:43:57.113Z",
+			"updatedAt": "2022-07-05T14:43:57.113Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 19,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220615/audi-q3-1.4-tfsi-flex-prestige-plus-s-tronic-wmimagem11264620020.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 20,
+			"model": "LEXUS NX 200T",
+			"version": "LUXURY 4X4 16V TURBO",
+			"certifield": true,
+			"price": 195.9,
+			"year": 2017,
+			"kilometers": "52k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:49:48.461Z",
+			"updatedAt": "2022-07-05T14:49:48.461Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 20,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220621/audi-a3-2.0-tfsi-sedan-ambition-16v-gasolina-4p-stronic-wmimagem11324628115.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 21,
+			"model": "MITSUBISHI ECLIPSE CROSS",
+			"version": "MIVEC TURBO",
+			"certifield": true,
+			"price": 195.9,
+			"year": 2022,
+			"kilometers": "32k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:50:27.895Z",
+			"updatedAt": "2022-07-05T14:50:27.895Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 21,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220617/lexus-nx-200t-2.0-luxury-4x4-16v-turbo-gasolina-4p-automatico-wmimagem09585996633.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 22,
+			"model": "MAZDA RX-8",
+			"version": "SPORT GASOLINA",
+			"certifield": true,
+			"price": 208.9,
+			"year": 2008,
+			"kilometers": "35k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:51:07.274Z",
+			"updatedAt": "2022-07-05T14:51:07.274Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 22,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220622/mitsubishi-eclipse-cross-1.5-mivec-turbo-gasolina-hpes-cvt-wmimagem10094372242.jpg"
+			},
+			"additional": null
+		},
+		{
+			"id": 23,
+			"model": "HYUNDAI CRETA",
+			"version": "FLEX PRESTIGE AUTOMÁTICO",
+			"certifield": true,
+			"price": 156.9,
+			"year": 2022,
+			"kilometers": "0k",
+			"description": "Unico dono devidamente comprovado... Periciado todo original sem nenhum detalhe... Todo revisado em concessionária Renault com garantia até 19x2x24...",
+			"createdAt": "2022-07-05T14:51:52.863Z",
+			"updatedAt": "2022-07-05T14:51:52.863Z",
+			"condition": null,
+			"brand": null,
+			"location": null,
+			"mileage": null,
+			"cartype": null,
+			"color": null,
+			"fuel": null,
+			"photos": {
+				"id": 23,
+				"value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220623/mazda-rx8-1.3-sport-gasolina-4p-automatico-wmimagem16104562950.jpg"
+			},
+			"additional": null
+		}
+	],
+  "photos": [
+      {
+        "value": "https://quatrorodas.abril.com.br/wp-content/uploads/2022/04/honda-civic-seda-e1650568274124.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220622/honda-hrv-1.8-16v-flex-exl-4p-automatico-wmimagem18023988667.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220607/honda-fit-1.5-exl-16v-flex-4p-automatico-wmimagem10332201529.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220622/renault-captur-2.0-16v-hiflex-intense-automatico-wmimagem13014228828.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220623/renault-duster-1.6-16v-sce-flex-iconic-xtronic-wmimagem18013577432.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/renault-logan-1.0-12v-sce-flex-zen-manual-wmimagem13050803677.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220602/renault-kwid-1.0-12v-sce-flex-zen-manual-wmimagem14010638758.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202205/20220525/infiniti-fx35-3.5-rwd-v6-24v-gasolina-4p-automatico-wmimagem15511928967.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220620/infiniti-g37-3.7-cabrio-v6-24v-gasolina-2p-automatico-wmimagem16400862331.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2021/202109/20210927/infiniti-fx50-5.0-s-awd-v8-32v-gasolina-4p-automatico-wmimagem08533643441.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202207/20220701/mercedesbenz-glc-250-2.0-cgi-gasolina-coupe-4matic-9gtronic-wmimagem12580370063.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220623/mercedesbenz-c-200-1.5-eq-boost-hibrido-amg-line-9gtronic-wmimagem13085521425.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220609/mercedesbenz-gla-200-1.6-cgi-flex-style-7gdct-wmimagem16131459014.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220610/mercedesbenz-ml-350-3.0-bluetec-sport-v6-diesel-4p-automatico-wmimagem10140709324.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202205/20220516/mercedesbenz-s-63-amg-4.0-v8-turbo-gasolina-l-4matic-speedshift-wmimagem17204457418.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202205/20220516/mercedesbenz-s-63-amg-4.0-v8-turbo-gasolina-l-4matic-speedshift-wmimagem17204457418.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/audi-a3-1.4-tfsi-sportback-ambiente-16v-gasolina-4p-stronic-wmimagem14231956232.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/audi-a3-2.0-tfsi-gasolina-sedan-performance-black-stronic-wmimagem11185618419.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220615/audi-q3-1.4-tfsi-flex-prestige-plus-s-tronic-wmimagem11264620020.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220621/audi-a3-2.0-tfsi-sedan-ambition-16v-gasolina-4p-stronic-wmimagem11324628115.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220617/lexus-nx-200t-2.0-luxury-4x4-16v-turbo-gasolina-4p-automatico-wmimagem09585996633.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220622/mitsubishi-eclipse-cross-1.5-mivec-turbo-gasolina-hpes-cvt-wmimagem10094372242.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220623/mazda-rx8-1.3-sport-gasolina-4p-automatico-wmimagem16104562950.jpg"
+      },
+      {
+        "value": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220624/hyundai-creta-2.0-16v-flex-prestige-automatico-wmimagem13541664564.jpg"
+      }
+    ]
 }
